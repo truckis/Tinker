@@ -1,0 +1,33 @@
+
+.head {
+	text-align: center;
+}
+
+.bigdiv {
+	display: block;
+	border: 1px solid red;
+	/*margin-top: 250px;*/
+	height: 200px;
+}
+
+
+.form-group {
+	
+	
+}
+
+#comment {
+	height: 100px;
+}
+
+#name {
+	display: block;
+}
+
+#hide {
+	background-color: blue;
+}
+
+#remove {
+	background-color: red;
+}
