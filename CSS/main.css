@@ -1,33 +1,97 @@
 
+body {
+	background: url("../img/sea.jpg");
+	/*fits the whole image to the page*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*make sit so the background stays put and the content scrolls*/
+	background-attachment: fixed;
+
+	/*background: #ffc400;*/
+
+}
+
 .head {
 	text-align: center;
-}
+	margin-bottom: 5%;
+	margin-top: 5%;
+	font-family: 'Raleway', sans-serif;
 
+}
+/*Div box that holds posted comments created with JS*/
 .bigdiv {
-	display: block;
-	border: 1px solid red;
-	/*margin-top: 250px;*/
-	height: 200px;
-}
-
-
-.form-group {
-	
+	/*border: 2px solid red;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
 	
 }
 
-#comment {
-	height: 100px;
+/*Name box created by JS*/
+.titlebox {
+	font-family: 'Raleway', sans-serif;
 }
 
+/*Comment box created by JS*/
+.messagebox {
+	font-family: 'Raleway', sans-serif;
+	line-height: 18px;
+	word-spacing: 4px;
+}
+
+/*/*Name box created in HTML*/
 #name {
 	display: block;
+	opacity: .7;
+	/*background-color: #4a5c65;*/
+	color: white;
+	background-color: rgb(202, 226, 250);
+	color: black;
+	
 }
 
+/*Comment box created in HTML*/
+#comment {
+	height: 100px;
+	opacity: .7;
+	/*background-color: #4a5c65;*/
+	color: black;
+	background-color: rgb(202, 226, 250);
+}
+
+.btn-success {
+	background-color: rgb(202, 226, 250);
+}
+
+/*Hide Button created in JS*/
 #hide {
-	background-color: blue;
+	
 }
 
-#remove {
-	background-color: red;
+/*Clear button created in JS*/
+#clear {
+	margin-right: 3%;
 }
+
+#btndiv {
+	/*border: 1px solid yellow;*/
+}
+
+/*Div that holds the name and comments made by JS*/
+.smalldiv {
+	opacity: .7;
+	background-color: #778387;
+	color: black;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,21 +25,24 @@
   </head>
   <body>
 
-  <h1 class="head">What chu tink about</h1>
+  <h1 class="head">What Do You Think About?</h1>
 
   <h2 id="topic"></h2>
 
 
   <form>
-    <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-      <div class="form-group">
-        <input class="form-control" id="name" placeholder="Name">
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+        <div class="form-group">
+          <input class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control input-lg" id="comment" placeholder="Enter your thoughts"></textarea> 
+        </div>
+        <button type="button" class="btn btn-success" onclick="post()">Post</button>
       </div>
-      <div class="form-group">
-        <textarea class="form-control input-lg" id="comment" placeholder="Enter your thoughts"></textarea> 
-      </div>
-      <button type="button" class="btn btn-success" onclick="post()">Post</button>
-    </div>
+  </div>
   </form>
 
 
