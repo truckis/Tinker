@@ -30,12 +30,12 @@ function post() {
 	small.appendChild(title);
 
 	// -----------COMMENT BOX------------
-	// create a paragraph variable
+	// create a h4 variable
 	var message = document.createElement('h4');
 	// Creates a class for the comment box
 	message.className = 'messagebox';
 	// creates a text node with commentval inside it
-	var newtext = document.createTextNode("Comment: " + commentval);
+	var newtext = document.createTextNode(commentval);
 	// puts comment input into a paragraph
 	message.appendChild(newtext);
 	// puts p into the div
@@ -74,18 +74,21 @@ function post() {
 	// Displays Big div onto the screen, inside the body
 	document.body.appendChild(big);
 
+// cant get it to switch the writing back to "hide" when clicked again
 	// ---TOGGLE HIDE BUTTON--
 	// This code toggles between showing and hiding a div box
 	hide.addEventListener('click', function() {
 	var x = document.getElementById('small');
 	if (x.style.display === 'none') {
 		x.style.display = 'block';
+		hide.textContent = 'Hide';
 	} else {
 		x.style.display = 'none';
+		hide.textContent = 'Show';
 	}
 });
 
-	// ---CLEAR BUtton---
+	// ---CLEAR BUTTON---
 	// This code clears the div big from the body
 	clear.addEventListener('click', function() {
 	var y = document.getElementById('big');

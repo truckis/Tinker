@@ -58,18 +58,44 @@ body {
 	background-color: rgb(202, 226, 250);
 }
 
-.btn-success {
-	background-color: rgb(202, 226, 250);
+.btn-primary {
+	/*background-color: rgb(202, 226, 250);*/
+	background: none;
+	border: 1px solid white;
+	background-image: none;
+	color: white;
+}
+
+.btn-primary:hover {
+	background: none;
+	background-image: none;
+	color: white;
+	box-shadow: 1px;
+
 }
 
 /*Hide Button created in JS*/
 #hide {
-	
+	background: none;
+	border: 1px solid black;
+	color: black;
+	margin-right: 2%;
+}
+
+#hide:hover {
+	 box-shadow: 1px 1px 1px #888888;
 }
 
 /*Clear button created in JS*/
 #clear {
 	margin-right: 3%;
+	background: none;
+	border: 1px solid black;
+	color: black;
+}
+
+#clear:hover {
+	box-shadow: 1px 1px 1px #888888;
 }
 
 #btndiv {
@@ -79,9 +105,11 @@ body {
 /*Div that holds the name and comments made by JS*/
 .smalldiv {
 	opacity: .7;
-	background-color: #778387;
+	background-color: rgb(202, 226, 250);
 	color: black;
 	border-radius: 5px;
+	padding: 1%;
+	padding-top: 0;
 }
 
 
