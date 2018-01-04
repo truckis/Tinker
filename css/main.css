@@ -1,0 +1,125 @@
+
+body {
+	background: url("../img/sea.jpg");
+	/*fits the whole image to the page*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*make sit so the background stays put and the content scrolls*/
+	background-attachment: fixed;
+
+	/*background: #ffc400;*/
+
+}
+
+.head {
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	font-family: 'Raleway', sans-serif;
+
+}
+/*Div box that holds posted comments created with JS*/
+.bigdiv {
+	/*border: 2px solid red;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+
+/*Name box created by JS*/
+.titlebox {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Comment box created by JS*/
+.messagebox {
+	font-family: 'Raleway', sans-serif;
+	line-height: 18px;
+	word-spacing: 4px;
+}
+
+/*/*Name box created in HTML*/
+#name {
+	display: block;
+	opacity: .7;
+	/*background-color: #4a5c65;*/
+	color: white;
+	background-color: rgb(202, 226, 250);
+	color: black;
+	
+}
+
+/*Comment box created in HTML*/
+#comment {
+	height: 100px;
+	opacity: .7;
+	/*background-color: #4a5c65;*/
+	color: black;
+	background-color: rgb(202, 226, 250);
+}
+
+.btn-primary {
+	/*background-color: rgb(202, 226, 250);*/
+	background: none;
+	border: 1px solid white;
+	background-image: none;
+	color: white;
+}
+
+.btn-primary:hover {
+	background: none;
+	background-image: none;
+	color: white;
+	box-shadow: 1px;
+
+}
+
+/*Hide Button created in JS*/
+#hide {
+	background: none;
+	border: 1px solid black;
+	color: black;
+	margin-right: 2%;
+}
+
+#hide:hover {
+	 box-shadow: 1px 1px 1px #888888;
+}
+
+/*Clear button created in JS*/
+#clear {
+	margin-right: 3%;
+	background: none;
+	border: 1px solid black;
+	color: black;
+}
+
+#clear:hover {
+	box-shadow: 1px 1px 1px #888888;
+}
+
+#btndiv {
+	/*border: 1px solid yellow;*/
+}
+
+/*Div that holds the name and comments made by JS*/
+.smalldiv {
+	opacity: .7;
+	background-color: rgb(202, 226, 250);
+	color: black;
+	border-radius: 5px;
+	padding: 1%;
+	padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
